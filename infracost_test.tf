@@ -17,7 +17,7 @@ resource "aws_instance" "my_web_app" {
   }
 
   root_block_device {
-    volume_size = 1000
+    volume_size = 1000 ####
   }
 }
 
